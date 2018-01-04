@@ -1,3 +1,5 @@
+#+OPTIONS: \n:t
+#+OPTIONS: ^:{}
 * lsp-php
 Php support for lsp-mode using the [[https://github.com/felixfbecker/php-language-server][php-language-server]]
 * Installation
