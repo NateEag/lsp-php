@@ -6,7 +6,7 @@
 ;; URL: https://github.com/tszg/lsp-php
 ;; Package-Version: 0
 ;; Package-Requires: ((emacs "25.1") (lsp-mode "3.0"))
-;; Keywords: php
+;; Keywords: convenience, php
 ;;
 ;;; Commentary:
 ;; (require 'lsp-php)
