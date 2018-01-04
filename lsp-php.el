@@ -17,7 +17,7 @@
 (require 'lsp-mode)
 
 ;;;###autoload
-(defcustom lsp-php-server-install-dir (concat (getenv "HOME") "/.emacs.d/php-language-server/")
+(defcustom lsp-php-server-install-dir (concat (getenv "HOME") "/php-language-server/")
   "Install directory for php-language-server.
 The slash is expected at the end."
   :group 'lsp-mode

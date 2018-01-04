@@ -4,7 +4,7 @@ Php support for lsp-mode using the [[https://github.com/felixfbecker/php-languag
 ** From MELPA
 Install the package =lsp-php=
 ** Installing =php-language-server=
-The default php-language-server installation path is in =~/.emacs.d/php-language-server/=, create this directory and execute it in the directory:
+The default php-language-server installation path is in =~/php-language-server/=, create this directory and execute it in the directory:
 #+BEGIN_SRC shell
 composer require felixfbecker/language-server
 #+END_SRC
