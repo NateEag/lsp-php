@@ -10,7 +10,8 @@ The default php-language-server installation path is in =~/php-language-server/=
 #+BEGIN_SRC shell
 composer require felixfbecker/language-server
 #+END_SRC
-Please see the [[https://github.com/felixfbecker/php-language-server][php-language-server]] for installation information
+Please see the [[https://github.com/felixfbecker/php-language-server][php-language-server]] for installation information.
+
 If you choose to have the server installed in a different directory, set =lsp-php-server-install-dir=,For example:
 #+BEGIN_SRC emacs-lisp
 (setq lsp-php-server-install-dir "/home/z/lsp-server/php.lsp/")
