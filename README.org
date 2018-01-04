@@ -2,18 +2,18 @@
 Php support for lsp-mode using the [[https://github.com/felixfbecker/php-language-server][php-language-server]]
 * Installation
 ** From MELPA
-Install the package `lsp-php`
-** Installing `php-language-server`
-The default php-language-server installation path is in `~/.emacs.d/php-language-server/`, create this directory and execute it in the directory:
+Install the package =lsp-php=
+** Installing =php-language-server=
+The default php-language-server installation path is in =~/.emacs.d/php-language-server/=, create this directory and execute it in the directory:
 #+BEGIN_SRC shell
 composer require felixfbecker/language-server
 #+END_SRC
 Please see the [[https://github.com/felixfbecker/php-language-server][php-language-server]] for installation information
-If you choose to have the server installed in a different directory, set `lsp-php-server-install-dir`,For example:
+If you choose to have the server installed in a different directory, set =lsp-php-server-install-dir=,For example:
 #+BEGIN_SRC emacs-lisp
 (setq lsp-php-server-install-dir "/home/z/lsp-server/php.lsp/")
 #+END_SRC
-* Enabling `lsp-php`
+* Enabling =lsp-php=
 #+BEGIN_SRC emacs-lisp
 (require 'lsp-php)
 (add-hook 'php-mode-hook #'lsp-php-enable)
