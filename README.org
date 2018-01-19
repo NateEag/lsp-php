@@ -1,6 +1,6 @@
 #+OPTIONS: \n:t
 #+OPTIONS: ^:{}
-* =lsp-php= [[http://www.melpa.org/#/lsp-php][file:http://www.melpa.org/packages/lsp-php-badge.svg]]
+* lsp-php [[http://www.melpa.org/#/lsp-php][file:http://www.melpa.org/packages/lsp-php-badge.svg]]
 Php support for lsp-mode using the [[https://github.com/felixfbecker/php-language-server][php-language-server]]
 * Installation
 ** From MELPA
